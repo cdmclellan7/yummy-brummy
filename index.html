@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yummy Brummy - Recipe Finder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e575785a79.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav>
+        <div class="social-icons">
+            <p>Follow</p>
+            <div>
+                <a href="http://facebook.com" class="icon-link">
+                    <i class="icon fab fa-facebook"></i>
+                </a>
+                <a href="http://twitter.com" class="icon-link">
+                  <i class="icon fab fa-twitter-square"></i>
+                </a>
+                <a href="http://instagram.com" class="icon-link">
+                  <i class="icon fab fa-instagram-square"></i>
+                </a>
+            </div>
+        </div>
+        <img class="logo" src="images/logo.png" alt="Yummy Brummy Logo">
+        <div class="search-icons">
+          <a href="#food-input" class="icon-link">
+            <i class="icon fas fa-search"></i>Search
+          </a>
+          <a href="#" class="icon-link">
+            <i class="icon fas fa-hamburger"></i>
+          </a>   
+        </div>
+    </nav>
+    <section id="recipe-section" class="recipe-section">
+      <div class="recipe-search">
+        <h1 id="section-heading" class="section-heading">Find Your Yum</h1>
+        <input aria-label="food-input" id="food-input" class="food-input" />
+      </div>
+      <ul id="recipes-list" class="recipe-list">
+
+      </ul>
+    </section>
+    <script src="./main.js"></script>
+  </body>
+</html>
