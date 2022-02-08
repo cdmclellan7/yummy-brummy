@@ -11,6 +11,10 @@ This is a recipe finder app!
 
 ## Contributing
 
+### Code of Conduct
+
+In short: Be nice. No harassment, trolling, or spamming.
+
 ### How do I make a contribution?
 
 Never made an open source contribution before? Wondering how contributions work in the in our project? Here's a quick rundown!
