@@ -15,11 +15,11 @@ This is a recipe finder app!
 
 Never made an open source contribution before? Wondering how contributions work in the in our project? Here's a quick rundown!
 
-1. Find an issue that you are interested in addressing or a feature that you would like to add.
+1. Find an issue that you are interested in addressing. If you want to add a new feature or if you find a bug not currently in the Github issues, create a new issue on Github.
 
-2. Fork the repository associated with the issue to your local GitHub organization. This means that you will have a copy of the repository under your-GitHub-username/repository-name.
+2. Fork this repository. This means that you will have a copy of the repository under your-GitHub-username/yummy-brummy.
 
-3. Clone the repository to your local machine using git clone https://github.com/github-username/repository-name.git.
+3. Clone this forked repository to your local machine using git clone.
 
 4. Create a new branch for your fix using git checkout -b branch-name-here.
 
