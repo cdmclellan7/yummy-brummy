@@ -1,19 +1,31 @@
 # Yummy Brummy
 
 This is a recipe finder app!
+Have a look at the Github pages site [here](https://cdmclellan7.github.io/yummy-brummy/)
 
 ## Table of Contents
 
+- [Our Motivation](#our-motivation)
 - [Contributing](#contributing)
 - [Reporting Bugs and Issues](#reporting-bugs-and-issues)
 - [Platform, Build and Deployment Status](#platform-build-and-deployment-status)
 - [License](#license)
 
+## Our Motivation
+
+Contributing to open source seems really daunting. The feeling of breaking something important kept nagging away at me so that's why we've decided to use an old Hackathon project as the starting point for our own open source project. 
+
+We want everyone to feel welcome and fully supported to contribute in any way they can. There's so many things that could be added to the Yummy Brummy site and we encourage you to take the plunge. The only thing we'd say is make sure you are making **meaningful commits**. Don't just slightly change the padding or font-size on one element please! Maybe change the styling of a whole button or add a cool animation instead?
+
+Also please don't make **huge changes** to the site or undertake drastic redesigns. We want everyone to have an opportunity to contribute and get started in the world of open source. 
+
+We have created some starter issues for you to look at. Feel free to add anything that comes to mind. Our goal is not to make the world's best recipe finder (although that would be great), but to provide a safe, non judgemental project for you to practice contributing, code reviewing, forking repos, creating and merging branches.
+
 ## Contributing
 
 ### Code of Conduct
 
-In short: Be nice. No harassment, trolling, or spamming.
+In short: Be nice. No harassment, trolling, or spamming. Thanks.
 
 ### How do I make a contribution?
 
@@ -45,3 +57,9 @@ Never made an open source contribution before? Wondering how contributions work 
 12. Make changes to the pull request if the reviewing maintainer recommends them.
 
 13. Celebrate your success after your pull request is merged!
+
+These are just some brief notes. If you are still unsure we've linked to an incredibly detailed step by step [tutorial](https://www.dataschool.io/how-to-contribute-on-github/)
+
+## Reporting Bugs and Issues
+
+We've based this README on freeCodeCamp's. So in that same spirit here's a [link](https://forum.freecodecamp.org/t/how-to-report-a-bug-to-the-freecodecamp-open-source-community/19543) to their guide on how to report bugs and other issues. You can ask for help on Slack instead of freeCodeCamp's forums. Please remember that as fellow bootcampers we might not have the answers, but we'll certainly try our best.
