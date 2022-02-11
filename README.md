@@ -89,4 +89,7 @@ Currently the site is deployed to Github Pages [here](https://cdmclellan7.github
 
 ## License
 
-Licensed under the [MIT License](LICENSE). 
+Licensed under the [MIT License](LICENSE).
+
+## Maintainers
+@cdmclellan7, @chirazzzz, @eniabellver, @bM7tcHF88GBxDni, @firko-learnin
