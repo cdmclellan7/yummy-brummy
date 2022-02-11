@@ -82,6 +82,11 @@ That's just scratching the surface for how far you can go. Please create new iss
 
 We've based this README on freeCodeCamp's. So in that same spirit here's a [link](https://forum.freecodecamp.org/t/how-to-report-a-bug-to-the-freecodecamp-open-source-community/19543) to their guide on how to report bugs and other issues. You can ask for help on Slack instead of freeCodeCamp's forums. Please remember that as fellow bootcampers we might not have the answers, but we'll certainly try our best.
 
+
+## Platform, Build and Deployment Status 
+
+Currently the site is deployed to Github Pages [here](https://cdmclellan7.github.io/yummy-brummy/). 
+
 ## License
 
 Licensed under the [MIT License](LICENSE). 
