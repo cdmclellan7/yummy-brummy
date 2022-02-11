@@ -6,6 +6,7 @@ Have a look at the Github pages site [here](https://cdmclellan7.github.io/yummy-
 ## Table of Contents
 
 - [Our Motivation](#our-motivation)
+- [Core Tech Stack](#core-tech-stack)
 - [Contributing](#contributing)
     - [Code of Conduct](#code-of-conduct)
     - [How do I make a contribution?](#how-do-i-make-a-contribution)
@@ -23,6 +24,10 @@ We want everyone to feel welcome and fully supported to contribute in any way th
 Also please don't make **huge changes** to the site or undertake drastic redesigns. We want everyone to have an opportunity to contribute and get started in the world of open source. 
 
 We have created some starter issues for you to look at. Feel free to add anything that comes to mind. Our goal is not to make the world's best recipe finder (although that would be great), but to provide a safe, non judgemental project for you to practice contributing, code reviewing, forking repos, creating and merging branches.
+
+## Core Tech Stack
+
+We have created the React scaffolding for the site in our initial commit. It makes sense to make PostgreSQL, Express, Node and React (PERN) our default tech stack for this project. Please raise any issues with this tech stack in mind.
 
 ## Contributing
 
