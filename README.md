@@ -7,6 +7,9 @@ Have a look at the Github pages site [here](https://cdmclellan7.github.io/yummy-
 
 - [Our Motivation](#our-motivation)
 - [Contributing](#contributing)
+    -[Code of Conduct](#code-of-conduct)
+    -[How do I make a contribution?](#how-do-i-make-a-contribution)
+- [Continued development](#continued-development)
 - [Reporting Bugs and Issues](#reporting-bugs-and-issues)
 - [Platform, Build and Deployment Status](#platform-build-and-deployment-status)
 - [License](#license)
@@ -59,6 +62,21 @@ Never made an open source contribution before? Wondering how contributions work 
 13. Celebrate your success after your pull request is merged!
 
 These are just some brief notes. If you are still unsure we've linked to an incredibly detailed step by step [tutorial](https://www.dataschool.io/how-to-contribute-on-github/)
+
+## Continued development
+
+At the time of writing the Yummy Brummy site is built using HTML, CSS and Vanilla JS. There's clearly many ways you could extend the functionality, styling and architecture of the project. Below are some ideas to get you started:
+
+  - Make the site mobile friendly and responsive to various screen sizes
+  - Create multiple pages with extra features
+  - Make this a React application using [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html) or a development framework like [next.js](https://nextjs.org/) or [gatsby](https://www.gatsbyjs.com/)
+  - Bulid out the backend using Node, Express and PostgreSQL
+  - Deploy the frontend to [Netlify](https://www.netlify.com/) or [Vercel](https://vercel.com/)
+  - Deploy the backend to [Heroku](https://www.heroku.com/)
+  - Create RESTful API routes
+  - Add user authentication with [auth0](https://auth0.com/)
+
+That's just scratching the surface for how far you can go. Please create new issues for any ideas/features you'd like to implement.  
 
 ## Reporting Bugs and Issues
 
