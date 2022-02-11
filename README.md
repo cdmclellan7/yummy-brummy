@@ -7,8 +7,8 @@ Have a look at the Github pages site [here](https://cdmclellan7.github.io/yummy-
 
 - [Our Motivation](#our-motivation)
 - [Contributing](#contributing)
-    -[Code of Conduct](#code-of-conduct)
-    -[How do I make a contribution?](#how-do-i-make-a-contribution)
+    - [Code of Conduct](#code-of-conduct)
+    - [How do I make a contribution?](#how-do-i-make-a-contribution)
 - [Continued development](#continued-development)
 - [Reporting Bugs and Issues](#reporting-bugs-and-issues)
 - [Platform, Build and Deployment Status](#platform-build-and-deployment-status)
