@@ -1,26 +1,26 @@
 :root {
-    /* Colors */
-    --primary-clr: hsl(28, 71%, 52%);
-    --dark-clr: hsl(168, 8%, 12%);
-    --light-clr: hsl(34, 21%, 94%);
-    --gray-clr: hsl(71, 5%, 54%);
-    --accent-clr: hsl(45, 87%, 61%);
+  /* Colors */
+  --primary-clr: hsl(28, 71%, 52%);
+  --dark-clr: hsl(168, 8%, 12%);
+  --light-clr: hsl(34, 21%, 94%);
+  --gray-clr: hsl(71, 5%, 54%);
+  --accent-clr: hsl(45, 87%, 61%);
 
-    /* Fonts */
-    --fs-heading-main: 4em;
-    --fs-heading-title: 2em;
-    --fs-icons: 1.3em;
-    --fs-reg: 1em;
-    --fs-nav: 0.8em;
+  /* Fonts */
+  --fs-heading-main: 4em;
+  --fs-heading-title: 2em;
+  --fs-icons: 1.3em;
+  --fs-reg: 1em;
+  --fs-nav: 0.8em;
 
-    --ff-reg: 'Raleway', sans-serif;
-    --fw-light: 200;
-    --fw-reg: 400;
-    --fw-bold: 700;
+  --ff-reg: "Raleway", sans-serif;
+  --fw-light: 200;
+  --fw-reg: 400;
+  --fw-bold: 700;
 
-    /* Spacing */
-    --margin: 2em;
-    --nav-height: 4em;
+  /* Spacing */
+  --margin: 2em;
+  --nav-height: 4em;
 }
 
 /****** CSS reset ******/
@@ -79,14 +79,14 @@ select {
   font: inherit;
 }
 input {
-    outline: none;
+  outline: none;
 }
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
-   scroll-behavior: auto;
+    scroll-behavior: auto;
   }
-  
+
   *,
   *::before,
   *::after {
@@ -100,95 +100,93 @@ input {
 /* General styles */
 
 body {
-    color: var(--dark-clr);
-    font-size: var(--fs-reg);
-    font-family: var(--ff-reg);
+  color: var(--dark-clr);
+  font-size: var(--fs-reg);
+  font-family: var(--ff-reg);
 }
 
 #recipe-section {
-    min-height: calc(100vh - var(--nav-height));
-    background-image: url(/images/main-bg.jpg);
-    background-color: rgba(0,0,0, .5);
-    background-blend-mode: multiply;
-    background-size: cover; 
-    background-position: center;
+  min-height: calc(100vh - var(--nav-height));
+  background-image: url("./images/main-bg.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
 }
 
 /* Navigation */
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: var(--nav-height);
-    background-color: var(--primary-clr);
-    font-weight: var(--fw-bold);
-    padding: 0 3em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--nav-height);
+  background-color: var(--primary-clr);
+  font-weight: var(--fw-bold);
+  padding: 0 3em;
 }
 
 .logo {
-    max-height: 100%;
+  max-height: 100%;
 }
 
 .social-icons {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .social-icons p {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .search-icons > * {
-    margin: 0 .5em;
+  margin: 0 0.5em;
 }
 
 .icon {
-    font-size: var(--fs-icons);
-    margin: 0.2em;
+  font-size: var(--fs-icons);
+  margin: 0.2em;
 }
 
 .icon-link:hover,
 .icon-link:focus {
-    color: var(--light-clr);
-    outline: none;
+  color: var(--light-clr);
+  outline: none;
 }
 
 /* Main Content */
 
 .recipe-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .section-heading {
-    color: var(--light-clr);
-    font-size: var(--fs-heading-main);
+  color: var(--light-clr);
+  font-size: var(--fs-heading-main);
 }
 
-
 .food-input {
-    border-radius: 15px;
-    border: 0;
-    padding-left: .7em;
-    width: 100%;
-
+  border-radius: 15px;
+  border: 0;
+  padding-left: 0.7em;
+  width: 100%;
 }
 
 .food-input:focus {
-    border: 3px solid var(--primary-clr);
+  border: 3px solid var(--primary-clr);
 }
 
 /* Recipe List */
 .recipe-list {
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr; 
-    gap: 1em;
-    max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1em;
+  max-width: 1200px;
 }
 
 /* Recipe Cards */
@@ -200,33 +198,39 @@ nav {
 }
 */
 .recipe-card a {
-    background-color: var(--light-clr);
-    padding: 1em;
-    border-radius: 20px;
-    height: 100%;
+  background-color: var(--light-clr);
+  padding: 1em;
+  border-radius: 20px;
+  height: 100%;
 }
 
-.recipe-card a:hover, .recipe-card a:focus {
-    background-color: var(--accent-clr);
-    outline: none;
+.recipe-card a:hover,
+.recipe-card a:focus {
+  background-color: var(--accent-clr);
+  outline: none;
 }
 
 .flex-card {
-    display: grid; 
-    grid-template-columns: 1.3fr 0.7fr; 
-    grid-template-rows: 0.5fr 0.5fr .3fr; 
-    gap: 0px 0px; 
-    grid-template-areas: 
-      "title title"
-      "image meal-type"
-      "image diet-labels"; 
-    
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  grid-template-rows: 0.5fr 0.5fr 0.3fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "title title"
+    "image meal-type"
+    "image diet-labels";
 }
 
-.recipe-image { 
-    grid-area: image; 
-    max-width: 5em;
+.recipe-image {
+  grid-area: image;
+  max-width: 5em;
 }
-.title { grid-area: title; }
-.meal-type { grid-area: meal-type; }
-.diet-labels { grid-area: diet-labels; }
+.title {
+  grid-area: title;
+}
+.meal-type {
+  grid-area: meal-type;
+}
+.diet-labels {
+  grid-area: diet-labels;
+}
